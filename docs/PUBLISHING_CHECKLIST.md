@@ -17,6 +17,12 @@
 
 **Topics:** `robotics`, `robot-arm`, `python`, `computer-vision`, `opencv`, `hackathon`, `human-robot-interaction`, `panthera-ht`
 
+## 2026-09-08 Repository Presentation Update
+
+- Added bilingual entry points: `README.md` for English and `README.zh-CN.md` for Simplified Chinese.
+- Added a GitHub-native header with factual status, Python, hardware, and license badges.
+- Kept the bilingual presentation as plain Markdown and badge links so it renders on GitHub without JavaScript, a site deployment, or third-party runtime code.
+
 ## Suggested First Commit
 
 ```text

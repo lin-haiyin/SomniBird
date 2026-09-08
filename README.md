@@ -1,8 +1,23 @@
-# SomniBird: Panthera-HT Hackathon Prototype
+<p align="center">
+  <img src="assets/images/robot-workstation.jpg" alt="SomniBird onsite workstation" width="72%" />
+</p>
+
+<h1 align="center">SomniBird</h1>
+
+<p align="center"><strong>好梦鸟 · A cybernetic sleep companion</strong></p>
+
+<p align="center">
+  <a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/lin-haiyin/SomniBird"><img src="https://img.shields.io/badge/status-onsite%20prototype-08a88a?style=flat-square" alt="Onsite prototype" /></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+" /></a>
+  <a href="https://github.com/HighTorque-Robotics/Panthera-HT_Host"><img src="https://img.shields.io/badge/hardware-Panthera--HT-ef6c3b?style=flat-square" alt="Panthera-HT" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-5c7cfa?style=flat-square" alt="MIT License" /></a>
+</p>
 
 > A direct-SDK robotics prototype for expressive, interactive sleep-time scenes.
-
-![现场调试中的机械臂](assets/images/robot-workstation.jpg)
 
 `SomniBird` (好梦鸟) was built during a hackathon around a six-axis Panthera-HT arm. The project explored how a robot arm can communicate a small story through posture, slow motion, gripper timing, and a camera-aware interaction loop rather than through industrial pick-and-place alone.
 
