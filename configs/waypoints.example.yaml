@@ -1,0 +1,17 @@
+# Review every value before it is copied into a motion script.
+# Joint units are radians; all six joint arrays must have six values.
+# Do not substitute a generic all-zero pose: first capture this arm's safe poses.
+trajectory_name: pick_and_place_template
+speed_policy:
+  initial_duration_seconds: 5.0
+  require_operator_present: true
+  require_clear_workspace: true
+waypoints:
+  pre_grasp: null
+  approach: null
+  lift: null
+  pre_place: null
+  place: null
+gripper:
+  open: null
+  closed: null

@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.venv/
+recordings/
+*.csv
+
+# Hardware/runtime state. Do not publish recorded movements, model weights, or
+# deployment-specific host information.
+AGENTS.md
+records/
+runtime/
+models/
+*.mp4
+*.mov
+*.avi
+!assets/media/**/*.mp4
+
+# Internal deployment notes retained locally for project history.
+docs/01_quickstart/scene_runbook.md
+docs/03_application_layer/
+docs/04_sdk_parameters/sdk_reference.md
+docs/05_hardware/
+docs/06_vision_video/
+docs/07_development_log/
+docs/video_stream_handoff.md
+docs/好梦鸟当前创新技术与视觉方案.md
+docs/好梦鸟技术与创新及视觉智能路线.md
+docs/好梦鸟未来技术发展路线.md

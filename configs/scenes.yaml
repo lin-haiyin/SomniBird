@@ -1,0 +1,18 @@
+# 应用层场景登记表。轨迹数据放在 records/trajectories，不在这里复制。
+scenes:
+  blanket01:
+    description: "盖被子：从 sleep2（J6 左转 90°）进入并回落到 sleep2"
+    start_pose: sleep2
+    return_pose: sleep2
+  insert02:
+    description: "插入互动场景：一次性回放录制轨迹"
+    start_pose: sleep2
+    return_pose: sleep2
+  take_phone02:
+    description: "拿手机场景：一次性回放录制轨迹"
+    start_pose: sleep2
+    return_pose: sleep2
+  shake_toy02:
+    description: "摇玩具场景：一次性回放录制轨迹"
+    start_pose: sleep2
+    return_pose: sleep2

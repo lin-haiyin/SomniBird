@@ -1,0 +1,24 @@
+# Named poses for the Panthera-HT direct-SDK project.
+# Units: radians. A pose is six joint targets plus one gripper target.
+# Keep sleep null until the operator has physically reviewed and approved it.
+poses:
+  sleep:
+    joints_rad: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    gripper_rad: 0.0
+    note: "Operator-approved all-zero encoder pose; not factory zero calibration"
+  sleep2:
+    joints_rad: [0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.570796]
+    gripper_rad: 0.000000
+    note: "plant2 专用归位姿态：除 J6 保持正向 90° 外，其余关节与夹爪归零"
+  upright_demo:
+    joints_rad: [1.574, 1.199, 1.199, 0.400, 0.000, -0.075]
+    gripper_rad: 0.000
+    note: "Previously observed upright demonstration pose; not a safety-certified rest pose"
+  plant:
+    joints_rad: [0.000000, 1.134464, 1.047198, 0.000000, 0.000000, 0.000000]
+    gripper_rad: 0.000000
+    note: "Recovered from ASUS command history: J2=65°, J3=60°; plant mode enters and exits with a smooth cosine interpolation"
+  plant2:
+    joints_rad: [0.000000, 1.134464, 1.047198, 0.000000, 0.000000, 1.570796]
+    gripper_rad: 0.000000
+    note: "plant 的 J6 正向旋转 90°版本；摆动参数与 plant 相同"

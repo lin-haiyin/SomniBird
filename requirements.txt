@@ -1,0 +1,4 @@
+# Official Panthera high-level Python dependencies.
+pyyaml>=6.0,<7.0
+pin>=2.6.0
+scipy>=1.9.0
